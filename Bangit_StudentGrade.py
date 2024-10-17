@@ -42,11 +42,9 @@ else:
             elif(final_grade <= 77 and final_grade >= 75):
                 grade = 3.00
                 description = "Passed"
-            elif(final_grade < 75 and final_grade >= 40):
+            else:
                 grade = 5.0
                 description = "Failed"
-            else:
-                print("Invalid Grade!")
                 
             print(f"Final Grade: {final_grade}")
             print(f"GPA: {grade}")
